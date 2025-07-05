@@ -87,3 +87,6 @@ app.Run();
 
 // 確保在應用程式關閉時清理 Serilog
 Log.CloseAndFlush();
+
+// 為整合測試提供公開的 Program 類別
+public partial class Program { }

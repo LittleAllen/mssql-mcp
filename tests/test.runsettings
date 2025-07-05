@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <Format>cobertura</Format>
+          <ExcludeByFile>**/Migrations/**/*</ExcludeByFile>
+          <ExcludeByAttribute>
+            <Attribute>Obsolete</Attribute>
+            <Attribute>GeneratedCodeAttribute</Attribute>
+            <Attribute>CompilerGeneratedAttribute</Attribute>
+          </ExcludeByAttribute>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+  <RunConfiguration>
+    <CollectSourceInformation>true</CollectSourceInformation>
+  </RunConfiguration>
+</RunSettings>

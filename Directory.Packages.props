@@ -14,6 +14,7 @@
     <PackageVersion Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
     <PackageVersion Include="Microsoft.Extensions.Http" Version="8.0.1" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
     <PackageVersion Include="Microsoft.Extensions.Options" Version="8.0.2" />
     
     <!-- JSON 和序列化 -->
@@ -55,6 +56,9 @@
     <!-- 程式碼覆蓋率 -->
     <PackageVersion Include="coverlet.collector" Version="6.0.2" />
     <PackageVersion Include="coverlet.msbuild" Version="6.0.2" />
+    
+    <!-- 測試報告工具 -->
+    <PackageVersion Include="ReportGenerator" Version="5.2.4" />
   </ItemGroup>
 
 </Project>
